@@ -1,0 +1,13 @@
+syntax = "proto3";
+package valoper.valoper;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "valoper/x/valoper/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message

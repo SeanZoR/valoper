@@ -1,0 +1,14 @@
+syntax = "proto3";
+package valoper.valoper;
+
+import "gogoproto/gogo.proto";
+import "valoper/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "valoper/x/valoper/types";
+
+// GenesisState defines the valoper module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
